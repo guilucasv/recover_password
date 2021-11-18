@@ -45,6 +45,17 @@ body {
     min-width: 280px;
     font-size: 1.0em;
 }
+.user::before {
+    position: relative;
+    display: flex;
+    content: '';
+    height: 1px;
+    width: 145px;
+    bottom: -25px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+}
 .input {
     position: relative;
     top: -50px;
